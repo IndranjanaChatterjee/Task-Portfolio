@@ -49,7 +49,7 @@ const projectList = [
     url: "https://newsletter-sol.netlify.app/",
   },
   {
-    title: "GAdvice generator app",
+    title: "Advice generator app",
     description:
       "This is a solution to the Advice generator app challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
     url: "https://indranjanachatterjee.github.io/Advice-Generator-App/",
