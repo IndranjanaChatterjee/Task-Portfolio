@@ -37,22 +37,22 @@ const projectList = [
     url: "https://cinemania-spot.netlify.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Quiz sApp",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Welcome to the Quiz App.",
+    url: "https://qquizzicalll.netlify.app/",
   },
   {
-    title: "My Resume Site",
+    title: "Frontend Mentor - Newsletter sign-up form with success message solution",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This is a solution to the Newsletter sign-up form with success message challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+    url: "https://newsletter-sol.netlify.app/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "GAdvice generator app",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This is a solution to the Advice generator app challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+    url: "https://indranjanachatterjee.github.io/Advice-Generator-App/",
   },
 ];
 
