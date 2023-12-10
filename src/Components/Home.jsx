@@ -34,9 +34,9 @@ const Home = ({ name, title }) => {
     <section id="home" className="min-height">
       <img src={image} className="background" alt="" />
       <div
-        style={{ position: "absolute", top: "5rem", left: "2rem", width: "100%",fontSize:"3rem" ,color: "white",backgroundColor:"pink" }}
+        style={{ position: "absolute", top: "5rem", left: "2rem", width: "100%" ,color: "white" }}
       >
-        <h1>Hii I,m Indranjana Chatterjee {}
+        <h1 style={{fontSize:"3rem"}}>Hii I,m Indranjana Chatterjee {' '}
           <span style={{fontSize:"7rem"}}>
           <Typewriter
             words={['Competitive Coder', 'Web Developer', 'Public Speaker']}

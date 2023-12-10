@@ -68,10 +68,15 @@ const About = () => {
         <ul
           style={{
             textAlign: "left",
-            columns: 2,
+            display:"flex",
+            justifyContent:"center",
+            alignItems:"center",
+            flexDirection:"row",
+            flexWrap:"wrap",
             fontSize: "1.25rem",
             margin: "2rem 3rem",
             gap: "3rem",
+
           }}
         >
           {skillsList.map((skill) => (
