@@ -110,6 +110,7 @@ a:hover {
   grid-gap: 20px;
   grid-template-columns: 330px 300px;
   margin: 20px auto;
+  flex-wrap: wrap;
 }
 
 .container .box {

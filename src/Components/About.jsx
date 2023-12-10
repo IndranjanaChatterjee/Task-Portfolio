@@ -69,9 +69,9 @@ const About = () => {
           style={{
             textAlign: "left",
             display:"flex",
-            justifyContent:"center",
+            justifyContent:"flex-start",
             alignItems:"center",
-            flexDirection:"row",
+            flexDirection:"column",
             flexWrap:"wrap",
             fontSize: "1.25rem",
             margin: "2rem 3rem",
