@@ -12,11 +12,10 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
-}
-html
-{
   scroll-behavior: smooth;
+  background-color: aqua;
 }
+
 
 div#main {
   display: flex;
