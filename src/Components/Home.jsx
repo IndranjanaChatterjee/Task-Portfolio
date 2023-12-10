@@ -34,7 +34,7 @@ const Home = ({ name, title }) => {
     <section id="home" className="min-height">
       <img src={image} className="background" alt="" />
       <div
-        style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem",fontSize:"3rem" ,color: "white" }}
+        style={{ position: "absolute", top: "5rem", left: "2rem", width: "100%",fontSize:"3rem" ,color: "white",backgroundColor:"pink" }}
       >
         <h1>Hii I,m Indranjana Chatterjee {}
           <span style={{fontSize:"7rem"}}>
