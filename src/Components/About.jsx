@@ -70,7 +70,7 @@ const About = () => {
             textAlign: "left",
             display:"flex",
             justifyContent:"flex-start",
-            alignItems:"center",
+            alignItems:"flex-start",
             flexDirection:"column",
             flexWrap:"wrap",
             fontSize: "1.25rem",
