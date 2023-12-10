@@ -21,7 +21,7 @@ import { Typewriter } from 'react-simple-typewriter'
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/wall.jpg";
+import image from "../images/walll.jpg";
 
 const imageAltText =
   "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
@@ -34,7 +34,7 @@ const Home = ({ name, title }) => {
     <section id="home" className="min-height">
       <img src={image} className="background" alt="" />
       <div
-        style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem",fontSize:"5rem" ,color: "white" }}
+        style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem",fontSize:"3rem" ,color: "white" }}
       >
         <h1>Hii I,m Indranjana Chatterjee {}
           <span style={{fontSize:"7rem"}}>
