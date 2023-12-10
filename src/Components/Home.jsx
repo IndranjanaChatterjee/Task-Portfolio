@@ -25,11 +25,16 @@ import image from "../images/wall.jpg";
 
 const imageAltText =
   "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
-const {text}=useTypewriter({
-  words:["front-end Developer","Competitive Coder","Public Speaker"],
-  loop:{}
-})
+
 const Home = ({ name, title }) => {
+
+  const {text}=useTypewriter({
+    words:["front-end Developer","Competitive Coder","Public Speaker"],
+    loop:{},
+    typeSpeed:120,
+    
+  })
+  
   return (
     <section id="home" className="min-height">
       <img src={image} className="background" alt="" />
