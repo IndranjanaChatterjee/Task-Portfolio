@@ -8,7 +8,7 @@
 import React from "react";
 import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
-import Typewriter from "typewriter-effect";
+import {useTypewriter,Cursor} from "react-simple-typewriter";
 
 /**
  * Home background image
@@ -25,7 +25,10 @@ import image from "../images/wall.jpg";
 
 const imageAltText =
   "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
-
+const {text}=useTypewriter({
+  words:["front-end Developer","Competitive Coder","Public Speaker"],
+  loop:{}
+})
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
@@ -35,16 +38,10 @@ const Home = ({ name, title }) => {
       >
         <h1>Hii I,m Indranjana Chatterjee {}
           <span>
-          <Typewriter
-                onInit={(typewriter) => {
-                    typewriter
-                        .typeString("GeeksForGeeks")
-                        .pauseFor(1000)
-                        .deleteAll()
-                        .typeString("Welcomes You")
-                        .start();
-                }}
-            />
+             {text}
+          </span>
+          <span>
+            <Cursor/>
           </span>
         </h1>
         <h2>{title}</h2>
