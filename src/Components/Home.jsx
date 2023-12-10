@@ -44,7 +44,19 @@ const Home = ({ name, title }) => {
       >
         <h1>Hii I,m Indranjana Chatterjee {}
           <span>
-             {text}
+          <Typewriter
+                onInit={(typewriter) => {
+                    typewriter
+                        .typeString("Web Developer")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("Competitive Coder")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("Public Speaker")
+                        .start();
+                }}
+            />
           </span>
           <span>
             <Cursor/>
