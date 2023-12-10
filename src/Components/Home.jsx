@@ -34,23 +34,23 @@ const Home = ({ name, title }) => {
     <section id="home" className="min-height">
       <img src={image} className="background" alt="" />
       <div
-        style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem", color: "white" }}
+        style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem",fontSize:"5rem" color: "white" }}
       >
         <h1>Hii I,m Indranjana Chatterjee {}
-          <span>
+          <span style={{fontSize:"7rem"}}>
           <Typewriter
             words={['Eat', 'Sleep', 'Code', 'Repeat!']}
-            loop={5}
+            loop={1000}
             cursor
             cursorStyle='_'
-            typeSpeed={70}
-            deleteSpeed={50}
+            typeSpeed={120}
+            deleteSpeed={80}
             
           />
           </span>
           
         </h1>
-        <h2>{title}</h2>
+        
       </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
