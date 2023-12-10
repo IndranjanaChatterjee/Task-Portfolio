@@ -8,6 +8,7 @@
 import React from "react";
 import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
+import Typewriter from "typewriter-effect";
 
 /**
  * Home background image
@@ -34,7 +35,16 @@ const Home = ({ name, title }) => {
       >
         <h1>Hii I,m Indranjana Chatterjee {}
           <span>
-            creater
+          <Typewriter
+                onInit={(typewriter) => {
+                    typewriter
+                        .typeString("GeeksForGeeks")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("Welcomes You")
+                        .start();
+                }}
+            />
           </span>
         </h1>
         <h2>{title}</h2>
