@@ -21,7 +21,7 @@ import { Typewriter } from 'react-simple-typewriter'
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/walll.jpg";
+import image from "../images/wallll.jpg";
 
 const imageAltText =
   "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
@@ -39,7 +39,7 @@ const Home = ({ name, title }) => {
         <h1>Hii I,m Indranjana Chatterjee {}
           <span style={{fontSize:"7rem"}}>
           <Typewriter
-            words={['Eat', 'Sleep', 'Code', 'Repeat!']}
+            words={['Competitive Coder', 'Web Developer', 'Public Speaker']}
             loop={1000}
             cursor
             cursorStyle='_'
