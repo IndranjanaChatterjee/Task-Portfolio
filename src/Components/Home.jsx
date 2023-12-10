@@ -32,9 +32,10 @@ const Home = ({ name, title }) => {
     words:["front-end Developer","Competitive Coder","Public Speaker"],
     loop:{},
     typeSpeed:120,
+    deleteSpeed:80
     
   })
-  
+
   return (
     <section id="home" className="min-height">
       <img src={image} className="background" alt="" />
