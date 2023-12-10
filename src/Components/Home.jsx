@@ -51,16 +51,12 @@ const Home = ({ name, title }) => {
                         .pauseFor(1000)
                         .deleteAll()
                         .typeString("Competitive Coder")
-                        .pauseFor(1000)
-                        .deleteAll()
-                        .typeString("Public Speaker")
+                        
                         .start();
                 }}
             />
           </span>
-          <span>
-            <Cursor/>
-          </span>
+          
         </h1>
         <h2>{title}</h2>
       </div>
