@@ -8,7 +8,7 @@
 import React from "react";
 import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
-import Typewriter from "typewriter-effect";
+import { Typewriter } from 'react-simple-typewriter'
 
 /**
  * Home background image
@@ -39,16 +39,14 @@ const Home = ({ name, title }) => {
         <h1>Hii I,m Indranjana Chatterjee {}
           <span>
           <Typewriter
-                onInit={(typewriter) => {
-                    typewriter
-                        .typeString("Web Developer")
-                        .pauseFor(1000)
-                        .deleteAll()
-                        .typeString("Competitive Coder")
-                        
-                        .start();
-                }}
-            />
+            words={['Eat', 'Sleep', 'Code', 'Repeat!']}
+            loop={5}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            
+          />
           </span>
           
         </h1>
