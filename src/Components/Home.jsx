@@ -8,7 +8,7 @@
 import React from "react";
 import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
-import {useTypewriter,Cursor} from "react-simple-typewriter";
+import Typewriter from "typewriter-effect";
 
 /**
  * Home background image
@@ -28,13 +28,7 @@ const imageAltText =
 
 const Home = ({ name, title }) => {
 
-  const {text}=useTypewriter({
-    words:["front-end Developer","Competitive Coder","Public Speaker"],
-    loop:{},
-    typeSpeed:120,
-    deleteSpeed:80
-    
-  })
+  
 
   return (
     <section id="home" className="min-height">
