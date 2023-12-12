@@ -13,9 +13,7 @@ body {
   padding: 0;
   width: 100%;
   scroll-behavior: smooth;
-  
 }
-
 
 div#main {
   display: flex;
@@ -106,33 +104,32 @@ a:hover {
 }
 
 .container {
-  display: grid;
   grid-gap: 20px;
-  grid-template-columns: 330px 300px;
-  margin: 20px auto;
   flex-wrap: wrap;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container .box {
   text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 24px 16px;
-    display: flex;
-    width: 20rem;
-    height: 15rem
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 24px 16px;
+  display: flex;
+  width: 20rem;
+  height: 15rem;
 }
 
 img.socialIcon {
   height: 30px;
   width: 30px;
 }
-@media (max-width:500px) {
-  li
-  {
+@media (max-width: 500px) {
+  li {
     font-size: clamp(1rem, 2.5vw, 2rem);
   }
-  
 }
