@@ -127,3 +127,10 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+@media (max-width:500px) {
+  li
+  {
+    font-size: clamp(1rem, 2.5vw, 2rem);
+  }
+  
+}
