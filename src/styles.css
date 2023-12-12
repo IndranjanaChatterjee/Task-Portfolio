@@ -110,6 +110,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1.5rem;
 }
 
 .container .box {
@@ -132,4 +133,16 @@ img.socialIcon {
   li {
     font-size: clamp(1rem, 2.5vw, 2rem);
   }
+  .adjust
+  {
+    height: 15rem;
+    width: 15rem;
+  }
+  .container .box {
+    width: 15rem;
+    height: 10rem;
+  }
+
+
+
 }

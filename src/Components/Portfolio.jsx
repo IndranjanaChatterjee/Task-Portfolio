@@ -66,6 +66,7 @@ const Portfolio = () => {
             src={image}
             style={{ height: "25rem", width: "25rem", objectFit: "cover" }}
             alt={imageAltText}
+            className="adjust"
           />
         </div>
         <div className="container">
