@@ -106,7 +106,7 @@ a:hover {
 .container {
   grid-gap: 20px;
   flex-wrap: wrap;
-  
+  width: 50rem;
   display: flex;
   justify-content: center;
   align-items: center;
