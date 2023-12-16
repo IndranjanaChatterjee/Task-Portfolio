@@ -74,7 +74,7 @@ const About = () => {
             flexDirection:"column",
             flexWrap:"wrap",
             fontSize: "1.25rem",
-            margin: "2rem 3rem",
+            
             gap: "3rem",
 
           }}
