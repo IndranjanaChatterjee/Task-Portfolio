@@ -20,6 +20,7 @@ const Header = () => {
         width: "100%",
         zIndex: 10,
       }}
+      className="nav_bar"
     >
       <a href="#home">Home</a>
       <a href="#about">About</a>

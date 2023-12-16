@@ -129,7 +129,10 @@ a:hover {
   width: 25rem;
   height: 25rem;
 }
-
+.nav_bar
+{
+  gap: 2rem;
+}
 img.socialIcon {
   height: 30px;
   width: 30px;
@@ -147,6 +150,10 @@ img.socialIcon {
     width: 15rem;
     height: 17rem;
     
+  }
+  .nav_bar
+  {
+    gap: 0.7rem;
   }
 
 
