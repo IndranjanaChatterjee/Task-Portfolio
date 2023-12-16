@@ -124,6 +124,11 @@ a:hover {
   width: 20rem;
   height: 15rem;
 }
+.adjust
+{
+  width: 25rem;
+  height: 25rem;
+}
 
 img.socialIcon {
   height: 30px;

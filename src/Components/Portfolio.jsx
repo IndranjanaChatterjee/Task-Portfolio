@@ -64,7 +64,7 @@ const Portfolio = () => {
         <div style={{ alignSelf: "center",width:"40rem",display:"flex",justifyContent:"center",alignItems:"center" }}>
           <img
             src={image}
-            style={{ height: "25rem", width: "25rem", objectFit: "cover" }}
+            style={{  objectFit: "cover" }}
             alt={imageAltText}
             className="adjust"
           />
