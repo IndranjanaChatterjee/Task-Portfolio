@@ -118,6 +118,27 @@ a:hover {
   align-items: center;
   margin: 1.5rem;
 }
+.edu
+{
+  font-size: 5rem;
+  text-align: center;
+  width: 100%;
+}
+.parts
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:1rem;
+}
+.b
+{
+  width: 30rem;
+  border-left: 2px solid black;
+  padding: 1rem;
+}
 
 .container .box {
   text-align: center;

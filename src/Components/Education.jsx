@@ -6,7 +6,7 @@ export default function Education() {
     <section id="education">
       <h1 className="edu">Education</h1>
       <div className="parts">
-        <div className="btech">
+        <div className="btech b">
         <FontAwesomeIcon icon="fa-solid fa-graduation-cap" />
           <h2 className="type">Btech in Computer Science and Technology (2022-2026)</h2>
           <p>
@@ -14,12 +14,12 @@ export default function Education() {
             second year
           </p>
         </div>
-        <div className="isc">
+        <div className="isc b">
         <FontAwesomeIcon icon="fa-solid fa-graduation-cap" />
           <h2 class="type">ISC (Higher Secondary)</h2>
           <p>Successfully passed ISC with 94.75% with Science</p>
         </div>
-        <div className="icse">
+        <div className="icse b">
         <FontAwesomeIcon icon="fa-solid fa-graduation-cap" />
           <h2 class="type">ICSE (Secondary)</h2>
           <p>Successfully passed ISCE with 92% with Science</p>
