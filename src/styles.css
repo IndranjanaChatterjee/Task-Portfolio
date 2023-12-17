@@ -107,7 +107,8 @@ a {
 }
 
 a:hover {
-  color: #4e567e;
+  color: #00030e;
+  text-decoration: underline;
 }
 
 .container {
@@ -166,6 +167,8 @@ a:hover {
 {
   width: 25rem;
   height: 25rem;
+  border: none;
+  border-radius: 1.5rem;
 }
 .nav_bar
 {
