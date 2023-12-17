@@ -10,9 +10,11 @@ import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
+import Education from "./Components/Education";
 import Portfolio from "./Components/Portfolio";
 
 import "./styles.css";
+import Education from "./Components/Education";
 
 /**
  * This object represents your information. The project is set so that you
@@ -25,7 +27,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Indranjana Chatterjee",
-  title: "Web Designer & Content Creator",
+  title: "Front-end Developer and Competitive Coder",
   email: "indranjanachatterjee@gmail.com",
   gitHub: "IndranjanaChatterjee",
   instagram: "Indranjana Chatterjee",
@@ -44,6 +46,7 @@ const App = () => {
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
+      <Education/>
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
