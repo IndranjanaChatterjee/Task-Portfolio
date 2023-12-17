@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function Education() {
   return (
     <section id="education">
-      <h1 className="edu">Education</h1>
+      <h2 className="edu">Education</h2>
       <div className="parts">
         <div className="btech b">
         <FontAwesomeIcon icon="fa-solid fa-graduation-cap" />

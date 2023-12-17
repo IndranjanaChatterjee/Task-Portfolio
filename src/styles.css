@@ -131,11 +131,12 @@ a:hover {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  gap:1rem;
+  gap:2.5rem;
 }
 .b
 {
-  width: 30rem;
+  width: 20rem;
+  height: 20rem;
   border-left: 2px solid black;
   padding: 1rem;
 }
