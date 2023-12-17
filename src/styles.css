@@ -135,11 +135,9 @@ a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   gap:2.5rem;
-  background-color: white;
+  background:linear-gradient(blue,green);
   padding: 2rem;
-  width: 65rem;
-  border: none;
-  border-radius: 2rem;
+  
 }
 .b
 {
