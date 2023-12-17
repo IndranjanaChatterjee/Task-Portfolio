@@ -7,7 +7,7 @@ export default function Education() {
     <section id="education">
       <img className="background" src={image} alt="edu" />
     
-      <h2 className="edu">Education</h2>
+      <h2 className="edu" style={{color:"white"}}>Education</h2>
       <div className="parts">
         <div className="btech b">
         <FontAwesomeIcon icon="fa-solid fa-graduation-cap" />
