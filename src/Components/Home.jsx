@@ -21,7 +21,7 @@ import { Typewriter } from 'react-simple-typewriter'
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/wallll.jpg";
+import image from "../images/coding.gif";
 import face from "../images/woman-with-tablet.jpg";
 
 const imageAltText =
