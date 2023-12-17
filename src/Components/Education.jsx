@@ -6,6 +6,7 @@ export default function Education() {
   return (
     <section id="education">
       <img className="background" src={image} alt="edu" />
+    
       <h2 className="edu">Education</h2>
       <div className="parts">
         <div className="btech b">
@@ -26,6 +27,7 @@ export default function Education() {
           <h3 class="type">ICSE (Secondary)</h3>
           <p className="small">Successfully passed ISCE with 92% with Science</p>
         </div>
+
       </div>
     </section>
   );

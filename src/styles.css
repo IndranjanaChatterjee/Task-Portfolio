@@ -65,6 +65,7 @@ h2 {
   font-weight: 400;
   margin: 0;
   padding-top: 1rem;
+  text-align: center;
 }
 
 h3 {
@@ -127,6 +128,8 @@ a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   gap:2.5rem;
+  background-color: white;
+  padding: 2rem;
 }
 .b
 {
