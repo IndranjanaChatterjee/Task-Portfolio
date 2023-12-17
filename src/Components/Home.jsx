@@ -37,7 +37,7 @@ const Home = ({ name, title }) => {
       <div
         style={{ position: "absolute", top: "5rem", left: "2rem", width: "100%" ,color: "white" }}
       >
-        <h1 style={{fontSize:"3rem"}}>Hii I,m Indranjana Chatterjee {' '}
+        <h1 style={{}}>Hii I,m Indranjana Chatterjee {' '}
           <div style={{fontSize:"7rem"}}>
           <Typewriter
             words={['Competitive Coder', 'Web Developer', 'Public Speaker']}
