@@ -118,12 +118,7 @@ a:hover {
   align-items: center;
   margin: 1.5rem;
 }
-.edu
-{
-  font-size: 5rem;
-  text-align: center;
-  width: 100%;
-}
+
 .parts
 {
   display: flex;
@@ -200,7 +195,14 @@ img.socialIcon {
   {
     gap: 0.7rem;
   }
-
+  h1
+  {
+    color: white;
+  }
+  a
+  {
+    font-size: 0.78rem;
+  }
 
 
 }
