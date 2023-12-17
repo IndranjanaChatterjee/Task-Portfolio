@@ -53,6 +53,9 @@ h1 {
   line-height: 0.8;
   margin: 0;
   width: 40rem;
+  backdrop-filter: blur(10px);
+  color: black;
+  padding: 0.5rem;
 }
 
 h2 {
